@@ -1,8 +1,9 @@
 # index.md
 ## This file only contains filler
 
-![Image]https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cosmopolitan.com%2Fentertainment%2Fnews%2Fa41877%2Fkanye-west-sort-of-smiled-again%2F&psig=AOvVaw1EvV8o5dvCnezL8F0qMBMN&ust=1642114396896000&source=images&cd=vfe&ved=0CAkQjhxqFwoTCNjc34qnrfUCFQAAAAAdAAAAABAb
-[link]https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cosmopolitan.com%2Fentertainment%2Fnews%2Fa41877%2Fkanye-west-sort-of-smiled-again%2F&psig=AOvVaw1EvV8o5dvCnezL8F0qMBMN&ust=1642114396896000&source=images&cd=vfe&ved=0CAkQjhxqFwoTCNjc34qnrfUCFQAAAAAdAAAAABAb
+![Image]https://hips.hearstapps.com/cos.h-cdn.co/assets/15/24/640x453/gallery-1434082562-smile.png?resize=480:*
+
+[link]https://hips.hearstapps.com/cos.h-cdn.co/assets/15/24/640x453/gallery-1434082562-smile.png?resize=480:*
 ---
 *filler*
 **more filler**
