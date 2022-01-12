@@ -1,1 +1,1 @@
-[Image](cse15llab2.png)
+![Image](cse15llab2.png)
