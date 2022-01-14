@@ -47,3 +47,46 @@
 * You are now connected to the remote server. If the terminal asks for your password again after you pressed enter, this means that you passsword was incorrect. Mkae sure you are typing your password correctly. 
 
 * If you are sure that you have typed your password in correctly, you should either try again later to see if your password change had not gone through yet or reset your password again.
+
+### 3. Running commands
+
+* In this step you can experiment with running various commands on the remote server.
+
+* Try running these commands 
+`cd`, `ls -lat`, `ls -a`
+
+* This is what I see using `ls -a`
+![Image](lab-report-1-ss/ls_a_ss.png)
+
+* If you would like to close your connection, either enter "exit" into the terminal or use the command "Ctrl+D". Your connection will automatically be terminated after a while as well.
+
+### 4. Scp
+
+* In this step we will be using scp to move a file to the remote server. 
+
+* Create a new file in Vscode called WhereAmI and copy the following program.
+
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
+#### Steps to create a file in VsCode
+* Starting from the Get Started window you can click on "explorer" on the right. It is the icon with two pages.
+
+* Create a Java Project with no build tools and save the folder. 
+
+* Open the folder and create a new file with the above program.
+
+* Save the file and right click on the name of the file in the explorer tab. Click on "Open in integrated terminal".
+
+* Similarly to the process for ssh, enter in the following command. Enter in your password when prompted.
+`scp WhereAmI.java UniqueAccount@ieng6.ucsd.edu:~/`
+
+* This is what I see.
+![Image](lab-report-1-ss/scp_ss.png)
