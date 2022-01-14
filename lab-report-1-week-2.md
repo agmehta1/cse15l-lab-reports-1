@@ -1,7 +1,7 @@
 # Week 2 Lab Report
 ## This report includes the steps I took to complete the week 1 lab. All of these steps will be the steps required for Windows users.
 
-1. Setting up VsCode
+### 1. Setting up VsCode
 
 * Download VsCode using this [link](https://code.visualstudio.com/download)
 
@@ -17,7 +17,7 @@
 * Now that VsCode has been setup, we can move onto connecting through ssh.
 
 
-2. SSH
+### 2. SSH
 
 * Install OpenSSH following the instructions at this [link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse#install-openssh-using-windows-settings)
 
