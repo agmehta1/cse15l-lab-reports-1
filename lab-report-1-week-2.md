@@ -89,4 +89,49 @@ class WhereAmI {
 `scp WhereAmI.java UniqueAccount@ieng6.ucsd.edu:~/`
 
 * This is what I see.
+
 ![Image](lab-report-1-ss/scp_ss.png)
+
+* Now relog into ssh and type in the command `ls`. The file should be there and you should be able to run `javac WhereAmI.java` and `java WhereAmI`.
+
+### 5. SSH Key
+
+* To create a ssh key, run the following command in your own computer's terminal(For windows search cmd in the searchbar).
+
+`ssh-keygen`
+
+* fill out the answers to the terminal prompts. For the file you can just press enter to use the default file name.
+
+* This is what I see after running the command. 
+![Image](lab-report-1-ss/ssh_key_ss.png)
+
+* Now back in VsCode ssh back into your account and run:
+
+` mkdir .ssh`
+
+* logout by typing "exit" and run:
+
+`scp /Users/your_username/.ssh/id_rsa.pub UniqueSSHAccount@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+
+* Now retry logging into the remote server.
+
+### 6. Optimizing Remote Running
+
+* Try out some commands that simplify the remote access process.
+
+* Try including commands in quotes after your ssh command, such as:
+
+`ssh UniqueAccount@ieng6.ucsd.edu "ls"`
+
+* This is what I see.
+![Image](lab-report-1-ss/ls_ss.png)
+
+* Try running multiple commands by separating the commands with semicolons
+
+`cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
+
+* This is what I see.
+![Image](lab-report-1-ss/cp_ss.png)
+
+* Try using the arrow keys to reuse a command you have typed earlier.
+
