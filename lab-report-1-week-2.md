@@ -40,4 +40,10 @@
 
 * You may or may not get a warning message when you first try this command. Type `yes`.
 
+* The terminal will ask for your password. Your password will not show as you type. Enter your password, and if your connection was successful you will see something like this.
 
+![Image](lab-report-1-ss/ssh_connected_ss.png)
+
+* You are now connected to the remote server. If the terminal asks for your password again after you pressed enter, this means that you passsword was incorrect. Mkae sure you are typing your password correctly. 
+
+* If you are sure that you have typed your password in correctly, you should either try again later to see if your password change had not gone through yet or reset your password again.
