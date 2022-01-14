@@ -124,6 +124,7 @@ class WhereAmI {
 `ssh UniqueAccount@ieng6.ucsd.edu "ls"`
 
 * This is what I see.
+
 ![Image](lab-report-1-ss/ls_ss.png)
 
 * Try running multiple commands by separating the commands with semicolons
@@ -131,6 +132,7 @@ class WhereAmI {
 `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
 * This is what I see.
+
 ![Image](lab-report-1-ss/cp_ss.png)
 
 * Try using the arrow keys to reuse a command you have typed earlier.
