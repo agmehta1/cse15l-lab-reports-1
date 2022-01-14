@@ -31,4 +31,13 @@
 
 * You will have to change your password for this account. Many students (including me) had issues with this step. One tip that worked for me was to select the yes option in the "*Change MyTritonLink password*". It will likely take a while before you password is actually updated, so wait around 15 mins before moving onto the next step.
 
+* Once you have succefully changed your password, open up VsCode and click on *Terminal* in the top bar.
+
+* Click on *New Terminal*
+
+* In the terminal type in the following command filling in your unique account but including the @ and everything after.
+`ssh UniqueAccount@ieng6.ucsd.edu`
+
+* You may or may not get a warning message when you first try this command. Type `yes`.
+
 
