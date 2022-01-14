@@ -135,3 +135,4 @@ class WhereAmI {
 
 * Try using the arrow keys to reuse a command you have typed earlier.
 
+You have completed the lab.
