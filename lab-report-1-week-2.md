@@ -6,6 +6,6 @@
 * Download VsCode using this [link](https://code.visualstudio.com/download)
 
 * Once VsCode has been downloaded, open up the program. You should see a window like this 
-![Image](VsCode ss.png)
+![Image](lab-report-1-ss/VsCode_ss.png)
 
 
