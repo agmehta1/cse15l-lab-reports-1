@@ -10,7 +10,9 @@
 
 * This is a link to the test file that caused an error. The file contains a link to a hypothetical website www.broken().com
 
-[link](https://github.com/Rygoh1/markdown-parse/blob/main/breakfile.md)
+
+[Link to file](https://github.com/Rygoh1/markdown-parse/blob/main/breakfile.md)
+
 
 * This is a screenshot of the symptom that the original MarkdownParse code provided with the lab had an error. 
 
