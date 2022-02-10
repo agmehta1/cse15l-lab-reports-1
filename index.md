@@ -1,6 +1,10 @@
 # index.md
 ## This file only contains filler
 
+[Lab Report 1](lab-report-1-week-2.html)
+[Lab Report 2](lab-report-2-week-4.html)
+[Lab Report 3](lab-report-3-week-6.html)
+
 ![Image](https://hips.hearstapps.com/cos.h-cdn.co/assets/15/24/640x453/gallery-1434082562-smile.png?resize=980:*)
 
 ![Image](https://www.si.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_620/MTY4MTAyNjU3NDY1MDY2ODgw/lebron-james-cavs-reactionjpg.webp)
@@ -32,5 +36,3 @@
 filler
 filler
 ```
-[Lab Report 1](lab-report-1-week-2.html)
-[Lab Report 1](lab-report-1-week-2.html)
