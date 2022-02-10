@@ -1,7 +1,7 @@
 # Week 6 Lab Report 3
 ## This lab report is on Group Choice 1 from week 5 lab
 
-### Streamline ``ssh`` Configuration
+### Streamlining ``ssh`` Configuration
 
 * This is a screenshot of my ``.ssh/config`` file. I used VSCode to edit the file, but on windows the notepad program also works.
 
