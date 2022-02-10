@@ -17,7 +17,7 @@
 * The name that you use after typing ssh can be changed in the ssh config file by changing the Host and copying the HostName and User on a new line.
 
 
-* This is a screenshot of the output after running ``scp FILE_NAME ieng6:~/`` in the terminal of VSCode. 
+* This is a screenshot of the output after running ``scp FILE_NAME ieng6:~/`` in the terminal of VSCode. It is important to add the ``:~/`` after the HostName or else ``scp`` will copy the file into a new file named ieng6.
 
 ![Image](lab-report-3-ss/scp_ieng6_ss.png)
 
