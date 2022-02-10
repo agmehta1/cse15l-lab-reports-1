@@ -7,4 +7,22 @@
 
 ![Image](lab-report-3-ss/ssh_config_ss.png)
 
-* I found the config file by opening file explorer going to OS (C:) > users > my username > .ssh > config
+* I found the config file by opening file explorer going to OS (C:) > Users > my username > .ssh > config
+
+
+* This is a screenshot of the output after running ``ssh ieng6`` in the terminal of VSCode.
+
+![Image](lab-report-3-ss/ssh_terminal_ss.png)
+
+* The name that you use after typing ssh can be changed in the ssh config file by changing the Host and copying the HostName and User on a new line.
+
+
+* This is a screenshot of the output after running ``scp FILE_NAME ieng6:~/`` in the terminal of VSCode. 
+
+![Image](lab-report-3-ss/scp_ieng6_ss.png)
+
+* After the ``scp``, I run ``ssh`` and ``ls`` to show that the file was properly copied to the remote server.
+
+* As you can see in the output of running ``ls``, the Lab_Report3.java file that I copied is in the remote server.
+
+![Image](lab-report-3-ss/scp_ieng6_snip_ss.png)
