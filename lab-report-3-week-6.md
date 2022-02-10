@@ -1,7 +1,7 @@
 # Week 6 Lab Report 3
 ## This lab report is on Group Choice 1 from week 5 lab
 
-[index page](index.html)
+[Link to index page](https://rygoh1.github.io/cse15l-lab-reports/index.html)
 
 ### Streamlining ``ssh`` Configuration
 

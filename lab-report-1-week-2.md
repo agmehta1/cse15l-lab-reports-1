@@ -1,6 +1,8 @@
 # Week 2 Lab Report
 ## This report includes the steps I took to complete the week 1 lab. All of these steps will be the steps required for Windows users.
 
+[Link to index page](https://rygoh1.github.io/cse15l-lab-reports/index.html)
+
 ### 1. Setting up VsCode
 
 * Download VsCode using this [link](https://code.visualstudio.com/download)

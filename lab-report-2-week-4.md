@@ -1,6 +1,8 @@
 # Week 4 Lab Report 2
 ## This lab report includes 3 code changes completed in lab 3 and 4.
 
+[Link to index page](https://rygoh1.github.io/cse15l-lab-reports/index.html)
+
 ### Code change 1
 
 * This is a screenshot of the commit to Github. We were not able to complete the full code before class ended, but this was the beginning of out of new implementation of MarkdownParse.
