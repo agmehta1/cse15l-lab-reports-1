@@ -48,7 +48,7 @@
 
 * The error message that is outputted in the terminal showing the ``IndexOutOfBoundsException`` caused by the failure-inducing input is the symptom, which tells us that there is a bug with the code. 
 
-* The bug in the code was in the if statement. The code checks that the ``[]`` contains at least one symbol in order to be a valid link, but the old code did not check if the ``[`` is actually infront of a ``]`` causing the ``IndexOutOfBoundsException`` when trying to make a substring. 
+* The bug in the code was in the if statement. The code checks that the ``[]`` contains at least one symbol in order to be a valid link, but the old code did not check if the ``[`` is actually in front of a ``]`` causing the ``IndexOutOfBoundsException`` when trying to make a substring. 
 
 
 ### Code change 3
