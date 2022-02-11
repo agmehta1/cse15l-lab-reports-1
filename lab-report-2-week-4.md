@@ -70,6 +70,6 @@
 
 * The failure-inducing input in this case was third line ``[()](something.com)``.
 
-* The symptom was the failed assertEquals method test indicating that the actual output did not match the expected.
+* The error message that is outputted in the terminal showing the failed ``assertEquals()`` test caused by the failure-inducing input is the symptom, which tells us that there is a bug with the code.
 
-* The bug in the code is a small difference in which the toReturn returned a substring using the first ``(`` and last ``)``, however, the parenthesis in the name of the link causes an issue in this code.
+* The bug in the code is a small difference in which the toReturn returned a substring using the first ``(`` and last ``)``, however, the parenthesis in the name of the link in the failure-inducing input causes the substring to be ``)](something.com)`` instead of just ``something.com``.
