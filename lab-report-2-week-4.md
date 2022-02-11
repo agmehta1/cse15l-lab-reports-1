@@ -44,7 +44,7 @@
 
 ![Image](lab-report-2-ss/error2.1.png)
 
-* The failure-inducing input in this case was not the line with the link, but it was actually the non-link line "This is just a paragraph but ] it has brackets [".
+* The failure-inducing input in this case was not the line with the link, but it was actually the non-link line ``This is just a paragraph but ] it has brackets [``.
 
 * The error message that is outputted in the terminal showing the ``IndexOutOfBoundsException`` caused by the failure-inducing input is the symptom, which tells us that there is a bug with the code. 
 
