@@ -15,7 +15,7 @@
 [`code]`](ucsd.edu)
 ```
 
-* Expected output should include ```"`google.com"```, ```"google.com"```, and ```"ucsd.edu"```. [Reference](https://spec.commonmark.org/dingus/)
+* Expected output Arraylist should include ```"`google.com"```, ```"google.com"```, and ```"ucsd.edu"``` strings. [Reference](https://spec.commonmark.org/dingus/)
 
 * For our implementation (Goldendoodles), the test did not pass. Below is the failing JUnit output.
 
@@ -37,7 +37,7 @@
 [some escaped \[ brackets \]](example.com)
 ```
 
-* Expected output should include ```"a.com"```, ```"a.com(())"```, and ```"example.com"```. [Reference](https://spec.commonmark.org/dingus/)
+* Expected output Arraylist should include ```"a.com"```, ```"a.com(())"```, and ```"example.com"``` strings. [Reference](https://spec.commonmark.org/dingus/)
 
 * For our implementation (Goldendoodles), the test did not pass. Below is the failing JUnit output.
 
@@ -47,7 +47,7 @@
 
 ![Image](lab-report-4-ss/Them_snip2.png)
 
-* For our implementation, I do believe a small code change can be done to fix the program. The first link was the link that caused issues, and I think that we would simply have to determine where the `)` that is paired with `](` by using the while loop that was discussed in this weeks Monday lecture. We would have to add the substring up to the next `)` that is not paired with an a new `(`.
+* For our implementation, I do believe a small code change can be done to fix the program. The first link was the link that caused issues, and I think that we would simply have to determine where the `)` that is paired with `](` by using the while loop that was discussed in this weeks Monday lecture. We would have to add the substring up to the next `)` that is not paired with an a new `(` to the toReturn Arraylist.
 
 ### Snippet 3
 
@@ -78,7 +78,7 @@ And there's still some more text after that.
 And then there's more text
 ```
 
-* Expected output should only include ```"https://ucsd-cse15l-w22.github.io/"```. [Reference](https://spec.commonmark.org/dingus/)
+* Expected output Arraylist should only include ```"https://ucsd-cse15l-w22.github.io/"``` string. [Reference](https://spec.commonmark.org/dingus/)
 
 * For our implementation (Goldendoodles), the test did not pass. Below is the failing JUnit output.
 
