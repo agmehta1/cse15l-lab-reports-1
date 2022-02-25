@@ -19,6 +19,10 @@
 
 * Expected output Arraylist should include ```"`google.com"```, ```"google.com"```, and ```"ucsd.edu"``` strings. [Reference](https://spec.commonmark.org/dingus/)
 
+* Below is the tester method I made to test this snippet.
+
+![Image](lab-report-4-ss/Test_snip1.png)
+
 * For our implementation (Goldendoodles), the test did not pass. Below is the failing JUnit output.
 
 ![Image](lab-report-4-ss/Us_snip1.png)
@@ -40,6 +44,10 @@
 ```
 
 * Expected output Arraylist should include ```"a.com"```, ```"a.com(())"```, and ```"example.com"``` strings. [Reference](https://spec.commonmark.org/dingus/)
+
+* Below is the tester method I made to test this snippet.
+
+![Image](lab-report-4-ss/Test_snip2.png)
 
 * For our implementation (Goldendoodles), the test did not pass. Below is the failing JUnit output.
 
@@ -81,6 +89,10 @@ And then there's more text
 ```
 
 * Expected output Arraylist should only include ```"https://ucsd-cse15l-w22.github.io/"``` string. [Reference](https://spec.commonmark.org/dingus/)
+
+* Below is the tester method I made to test this snippet.
+
+![Image](lab-report-4-ss/Test_snip3.png)
 
 * For our implementation (Goldendoodles), the test did not pass. Below is the failing JUnit output.
 
