@@ -3,6 +3,8 @@
 
 * In this report I will be using [the CommonMark demo site](https://spec.commonmark.org/dingus/) as a reference for the expected output of each test snippet. 
 
+* Links to [My markdown repository](https://github.com/Rygoh1/markdown-parse) and [Annie's repository(Panther)](https://github.com/AnniePhan02/CSE15L-Panther)
+
 ### Snippet 1
 
 ```
